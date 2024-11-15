@@ -1,0 +1,60 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* Root Variables */
+  :root {
+    --button-color: #c80000;
+    --button-hover: #960000;
+  }
+  
+  /* Navbar Container */
+  .parent_navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px;
+    /* Uncomment the box-shadow if you want a subtle shadow effect */
+    /* box-shadow: rgba(0, 0, 0, 0.12) 0px 0.5px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; */
+  }
+  
+  /* Logo Styles */
+  .logo img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  /* Navigation Links */
+  .nav_links {
+    display: flex;
+    gap: 10px; /* Keeps consistent spacing between items */
+  }
+  
+  .nav_links li {
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 15px; /* Adjusts spacing around links */
+    cursor: pointer;
+  }
+  
+  /* Button Styles */
+  .nav_button button {
+    background-color: var(--button-color);
+    color: white;
+    padding: 5px 20px;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth hover effect */
+  }
+  
+  .nav_button button:hover {
+    background-color: var(--button-hover);
+  }
+  
